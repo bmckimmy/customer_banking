@@ -12,11 +12,11 @@ def main():
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     # ADD YOUR CODE HERE
     savings_balance = float(input("Enter savings balance: "))
-    savings_interest_rate = float(input(Enter savings interest rate: ""))
+    savings_interest_rate = float(input("Enter savings interest rate: "))
     savings_months = int(input("Enter the number of months for savings: "))
     
     # Call the create_savings_account function and pass the variables from the user.
-    updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
+    updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest_rate, savings_months)
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
