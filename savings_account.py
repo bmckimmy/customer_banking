@@ -22,7 +22,11 @@ def create_savings_account(balance, interest_rate, months):
 
     # Update the savings account balance by adding the interest earned
     new_balance = balance + interest_earned
- 
+    savings_account.set_balance(new_balance)
+
+    # Pass the updated_balance to the set balance method using the instance of the SavingsAccount class.
+    savings_account.set_balance(new_balance)
+
     # Pass the interest_earned to the set interest method using the instance of the SavingsAccount class.
     savings_account.set_interest(interest_earned)
 
